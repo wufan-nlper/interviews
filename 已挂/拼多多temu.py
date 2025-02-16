@@ -1,7 +1,7 @@
 """1.12一面"""
 
 """二叉树层序遍历"""
-from ..leetcode import *
+from ...leetcode import *
 
 def levelOrder(root: TreeNode):
     if not root:
