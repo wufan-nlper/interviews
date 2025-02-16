@@ -45,4 +45,4 @@ def func1(nums, k):
     return quicksort(0, l-1, k)
 
 
-"""等待二面"""
+"""break"""

@@ -36,3 +36,5 @@ strs = [
 ]
 
 print(max_prefix(strs))
+
+"""break"""
