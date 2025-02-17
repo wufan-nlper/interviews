@@ -4,7 +4,6 @@
 
 """
 2.8 15点一面
-腾讯会议：376-154-817
 
 1. 讲一下LoRA的原理？
 2. LoRA的参数是如何调整的？
@@ -17,7 +16,7 @@
 
 """
 
-from ...leetcode import ListNode
+from ..leetcode import ListNode
 
 def reverse(head):
     curr = head
@@ -34,7 +33,6 @@ def reverse(head):
 
 """
 2.11 15点二面
-腾讯会议：711-305-520
 
 1. 项目介绍
 
@@ -53,7 +51,6 @@ def reverse(head):
 6. 绩效是月度评定，按照基本工资的70%发放底薪，30%的部分会乘以绩效比例（0.8~1.2）发放
 
 已完成
-35k*14
 """
 
 if __name__ == "__main__":
