@@ -44,7 +44,9 @@
 
 2.11 二面 <span style="color: red;">通过</span>
 
-2.14 三面 **待定**
+2.14 三面 <span style="color: red;">通过</span>
+
+2.18 HR面 未开始
 ## 蔚来——数字座舱大模型算法工程师
 2.11 一面 <span style="color: green;">已挂</span>
 ## 新浪微博——NLP算法工程师
@@ -56,7 +58,7 @@
 
 2.18 二面 未开始
 ## 筑龙——大模型应用算法工程师
-2.17 一面 未开始
+2.17 一面 <span style="color: orange;">已取消</span>
 ## LAZADA——搜索算法工程师
 2.17 一面 未开始
 ## 马上消费金融——大模型算法工程师
