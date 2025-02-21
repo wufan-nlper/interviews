@@ -40,3 +40,8 @@ def find(nums, target):
                 right = mid-1
             else:
                 left = mid+1
+
+
+"""
+2.22 10点半二面
+"""
