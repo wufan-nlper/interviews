@@ -44,4 +44,58 @@ def find(nums, target):
 
 """
 2.22 10点半二面
+
+1. BERT模型架构？
+2. BERT能不能做的更大？会遇到什么问题？
+3. BERT能不能和GPT一样做生成任务？
+4. 讲解DPO算法，和PPO有什么区别？
+5. DeepSeek有哪些创新，讲一下GRPO
+
+短期消费贷
+基于llm的营销、广告等收益提升
+团队规模一二十人
+
+算法题：
+    1. K个有序数组的合并
+    2. 整数开平方
+数学题：
+    1. 一根绳子，任取两点，求它能组成一个三角形的概率
+    2. 贝叶斯公式？
 """
+
+
+def merge_2(nums1, nums2):
+    p1, p2 = 0, 0
+    l1, l2 = len(nums1), len(nums2)
+    ans = []
+    while p1 < l1 and p2 < l2:
+        if p1 == l1:
+            ans.extend(nums2[p2: ])
+            break
+        elif p2 == l2:
+            ans.extend(nums1[p1: ])
+            break
+        elif nums1[p1] < nums2[p2]:
+            ans.append(nums1[p1])
+            p1 += 1
+        else:
+            ans.append(nums2[p2])
+            p2 += 1
+    
+    return ans
+
+
+def sqrt_2(num, eps=1e-10):
+    guess = num / 2
+    while True:
+        guess_cache = (guess + num / guess) / 2
+        if abs(guess - guess_cache) < eps:
+            return guess_cache
+        guess = guess_cache
+
+
+if __name__ == "__main__":
+    # nums1 = [1,3,5,7,9]
+    # nums2 = [2,4,6,8]
+    # print(merge_2(nums1, nums2))
+    print(sqrt_2(3))
